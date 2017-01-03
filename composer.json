@@ -1,0 +1,26 @@
+{
+    "name": "isys4283/tasks",
+    "description": "PHP project for points objects integrated with calendar.",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Jeff Puckett",
+            "email": "jeff@jeffpuckett.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "/var/www/localhost/calendar"
+        }
+    ],
+    "require": {
+        "jpuck/calendar": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "isys4283\\tasks\\": "src/"
+        }
+    }
+
+}
